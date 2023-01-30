@@ -1,10 +1,12 @@
-#  This is the code of COGCN (in the special issue of TITS) under review, thus please don't cite or use it
+# COGCN
 
-Fristly, you should run the data genenration program to generate the speed data
+This is a pytorch code of COGCN under review, thus don't refer or use it!!!
+# datasets: Chinese traffic speed datasets JiNan, XiAn!  US traffic flow datasets PEMS04 and PEMS08!
 
-Secondly, you should run the train.py and run program: run train.py --model COGCN --force True!!!!!!!!!!
+# Instructions for use：
 
-The code and datasets website：https://pan.baidu.com/s/1wM3llLL7knyNN4jRxUI_hQ Key：xz4m 
+You should select the datasets such as :JiNan or XiAn or PEMS (including PEMS04 and PEMS08).
 
+And find their code! 
 
-# Have a nice day :)!!!!
+# Have a nice day!
