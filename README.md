@@ -1,7 +1,7 @@
 # COGCN
 
 This is a pytorch code of COGCN under review, thus don't refer or use it!!!
-# datasets: Chinese traffic speed datasets JiNan, XiAn!  US traffic flow datasets PEMS04 and PEMS08!
+# Datasets: Chinese traffic speed datasets JiNan, XiAn!  US traffic flow datasets PEMS04 and PEMS08!
 
 # Instructions for use：
 
