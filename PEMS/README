@@ -1,1 +1,31 @@
+This is the code of COGCN in PEMS dataset!
 
+This is a document for this code++++++++++++++++++++++++++++++++++++++++++++++++++++++++=>
+
+***First, the structure of the code:
+
+util.py: The reading of data and other functions except of Model
+
+utils.py: all base blocks and functions of neural network models in our paper
+
+model.py: construct model based on utils.py
+
+engine.py: the program of training model in our paper
+
+train.py: main document of this code
+
+***How to run these files?
+
+In jupyter ,you should write:
+
+run train.py --force True --model COGCN_noloss --CL False --data data/PEMS08   --adjdata data/PEMS08/adj_pems08.pkl --num_nodes 170 --save ./garage/pems08
+
+run train.py --force True --model COGCN --CL True --data data/PEMS08   --adjdata data/PEMS08/adj_pems08.pkl --num_nodes 170 --save ./garage/pems08
+
+run train.py --force True --model COGCN_noloss --CL False --data data/PEMS04  --adjdata data/PEMS04/adj_pems04.pkl --num_nodes 307 --save ./garage/pems04
+
+run train.py --force True --model COGCN --CL True --data data/PEMS04  --adjdata data/PEMS04/adj_pems04.pkl --num_nodes 307 --save ./garage/pems04
+
+--CL: True is COGCN and False is COGCN_noloss
+
+The dataset and saving model can be found in BaiduYun: 
