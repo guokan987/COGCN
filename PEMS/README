@@ -28,4 +28,4 @@ run train.py --force True --model COGCN --CL True --data data/PEMS04  --adjdata 
 
 --CL: True is COGCN and False is COGCN_noloss
 
-The dataset and saving model can be found in BaiduYun: 
+The dataset and saving model can be found in BaiduYun: website: https://pan.baidu.com/s/1Tj1I1diw5BX_tC6zceAMEg   key：p1d2 
