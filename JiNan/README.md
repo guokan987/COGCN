@@ -30,5 +30,5 @@ or
 
 python train.py --force True --model (you can select from COGCN or COGCN_noloss(=COGCNNL in paper)) --CL True (or False) 
 
-The dataset and saving model can be found in BaiduYun: website：https://pan.baidu.com/s/1uXSDLngQMeQv__-UsBCDeQ key：mrcj 
+The dataset and saving model can be found in BaiduYun: https://pan.baidu.com/s/1UGt1y9L76ir08u6rDjSAvA key：3j6p 
 
